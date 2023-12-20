@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+  
+    <h1> 
+      
+      <center id="isim"> Hesap Makinesi</center>
+
+    </h1> 
+    
+  
+    <style> 
+        table { 
+            border: 4px solid black; 
+            margin-left: auto; 
+            margin-right: auto; 
+        } 
+
+        center{
+          border:5px solid black;
+          margin-left: auto; 
+          margin-right: auto; 
+          width: 510px
+        }
+          
+        input[type="button"] { 
+            width: 100%; 
+            padding: 30px 50px; 
+            background-color: green; 
+            color: white; 
+            font-size: 24px; 
+            font-weight: bold; 
+            border: 66; 
+            border-radius: 5px; 
+        } 
+          
+        input[type="yazi"] { 
+            padding: 20px 30px; 
+            font-size: 24px; 
+            font-weight: bold; 
+            border: none; 
+            border-radius: 5px; 
+            border: 4px solid black; 
+        } 
+    </style> 
+</head> 
+  
+<body> 
+  
+
+    <table id="Hesap"> 
+        <tr> 
+            <td colspan="3"> 
+                <input type="yazi" id="result"> 
+            </td> 
+            <td><input type="button" value="c"></td> 
+        </tr> 
+  
+        <tr> 
+            <td><input type="button" value="1"></td> 
+            <td><input type="button" value="2"></td> 
+            <td><input type="button" value="3"></td> 
+            <td><input type="button" value="/"></td> 
+        </tr> 
+        <tr> 
+            <td><input type="button" value="4"></td> 
+            <td><input type="button" value="5"></td> 
+            <td><input type="button" value="6"></td> 
+            <td><input type="button" value="*"></td> 
+        </tr> 
+        <tr> 
+            <td><input type="button" value="7"></td> 
+            <td><input type="button" value="8"></td> 
+            <td><input type="button" value="9"></td> 
+            <td><input type="button" value="-"></td> 
+        </tr> 
+        <tr> 
+            <td><input type="button" value="0"></td> 
+            <td><input type="button" value="."></td> 
+            <td><input type="button" value="="></td> 
+            <td><input type="button" value="+"></td> 
+        </tr> 
+    </table> 
+</body> 
+  
+</html>  
